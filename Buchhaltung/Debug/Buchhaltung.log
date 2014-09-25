@@ -1,0 +1,9 @@
+﻿  management.cpp
+  person.cpp
+  main.cpp
+  category.cpp
+  GUI_handler.cpp
+  booking.cpp
+  Generating Code...
+  LINK : C:\Users\Etix\Documents\GitHub\Buchhaltung\Debug\Buchhaltung.exe not found or not built by the last incremental link; performing full link
+  Buchhaltung.vcxproj -> C:\Users\Etix\Documents\GitHub\Buchhaltung\Debug\Buchhaltung.exe
