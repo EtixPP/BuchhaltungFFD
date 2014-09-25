@@ -14,6 +14,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+
 # =========================
 # Operating System Files
 # =========================
@@ -41,5 +42,16 @@ Icon
 Network Trash Folder
 Debug
 Release
+Buchhaltung\Debug
+Buchhaltung\Release
 Temporary Items
 .apdisk
+
+Buchhaltung/Debug/booking.obj
+Buchhaltung/Debug/booking.obj
+Buchhaltung/Debug/booking.obj
+Buchhaltung/Debug/booking.obj
+Buchhaltung/Debug/booking.obj
+Buchhaltung/Debug/booking.obj
+Buchhaltung/Debug/booking.obj
+Buchhaltung/Debug/Buchhaltung.log
