@@ -14,3 +14,27 @@ m_value { p_value }
 booking::~booking()
 {
 }
+
+category booking::GetCategory ()
+{	
+	return m_category;
+}
+std::string booking::GetNotice ( )
+{
+	return m_notice;
+}
+
+std::string booking::GetTitle ( )
+{
+	return m_title;
+}
+
+booking::Type booking::GetType ( )
+{
+	return m_type;
+}
+
+double booking::GetValue ( )
+{
+	return m_value;
+}
