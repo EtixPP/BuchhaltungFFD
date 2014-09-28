@@ -7,5 +7,5 @@ public:
 	~category();
 private:
 	std::string m_name;
-	
+
 };
