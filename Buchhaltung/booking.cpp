@@ -36,6 +36,12 @@ booking::Type booking::GetType ( )
 	return m_type;
 }
 
+person booking::GetPerson ( )
+{
+	return m_person;
+
+}
+
 double booking::GetValue ( )
 {
 	return m_value;

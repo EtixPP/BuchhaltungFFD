@@ -14,6 +14,7 @@ public:
 	std::string GetTitle ( );
 	std::string GetNotice ( );
 	category GetCategory ( );
+	person GetPerson ( );
 	double GetValue ( );
 	/*GET-Functions of the class end*/
 

@@ -6,6 +6,10 @@ m_SecondName { p_SecondName }
 {
 }
 
+std::string person::GetName ( )
+{
+	return m_FirstName + " " + m_SecondName;
+}
 person::~person ( )
 {
 }

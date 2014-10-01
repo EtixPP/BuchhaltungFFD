@@ -7,9 +7,11 @@ class account
 {
 public:
 	account ( const std::initializer_list<person> p_PersonList, const std::initializer_list<booking> p_BookingList );
+	account ( const std::initializer_list<person> p_PersonList );
 	virtual ~account ( );
 protected:
 	double m_balance;
 	std::vector<person> m_RepresentativesVec;
 	std::vector<booking> m_BookingsVec;
+	bool CheckIdentity(person p_person);
 };

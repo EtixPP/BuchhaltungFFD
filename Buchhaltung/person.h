@@ -7,6 +7,8 @@ public:
 	~person ( );
 	std::string GetName ( );
 	void SetName ( std::string p_name );
+
+
 private:
 	std::string m_SecondName;
 	std::string m_FirstName;
