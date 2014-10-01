@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="booking">
-    <Position X="6.5" Y="0.5" Width="3.5" />
+  <Class Name="booking" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
@@ -13,36 +13,57 @@
       </Enum>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAKAAAAAAAAAAAAAQAAAAAAAAQAAIAQAAAAAEAAAA=</HashCode>
+      <HashCode>AAAAKAAAYAAAAAAAAAQAAAAAAAQSgAMAQAAAAAEAAAA=</HashCode>
       <FileName>booking.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="category">
-    <Position X="0.5" Y="2.25" Width="4" />
+  <Class Name="category" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
       <FileName>category.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="GUI_handler">
-    <Position X="0.5" Y="4.25" Width="3" />
+  <Class Name="GUI_handler" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
       <FileName>GUI_handler.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="management">
-    <Position X="10.5" Y="1" Width="3" />
+  <Class Name="management" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AEAAgAAAAAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <HashCode>AEAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAAAAAAAEA=</HashCode>
       <FileName>management.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="person">
-    <Position X="3.75" Y="4.5" Width="2.25" />
+  <Class Name="person" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <HashCode>AEAAAAAAAAAAAAAAIAAAAIAAAAAAAAAAAAAAQACABAA=</HashCode>
       <FileName>person.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="account">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAACAEAAAAABQAAAAAA=</HashCode>
+      <FileName>account.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="payments_account">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>payments_account.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="savings_account">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>savings_account.h</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

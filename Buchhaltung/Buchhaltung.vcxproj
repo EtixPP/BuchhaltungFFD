@@ -69,10 +69,10 @@
   <ItemGroup>
     <ClCompile Include="account.cpp" />
     <ClCompile Include="booking.cpp" />
-    <ClCompile Include="cash_account.cpp" />
     <ClCompile Include="GUI_handler.cpp" />
     <ClCompile Include="category.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="payments_account.cpp" />
     <ClCompile Include="person.cpp" />
     <ClCompile Include="management.cpp" />
     <ClCompile Include="savings_account.cpp" />
@@ -80,10 +80,10 @@
   <ItemGroup>
     <ClInclude Include="account.h" />
     <ClInclude Include="booking.h" />
-    <ClInclude Include="cash_account.h" />
     <ClInclude Include="category.h" />
     <ClInclude Include="GUI_handler.h" />
     <ClInclude Include="management.h" />
+    <ClInclude Include="payments_account.h" />
     <ClInclude Include="person.h" />
     <ClInclude Include="savings_account.h" />
   </ItemGroup>
