@@ -1,10 +1,11 @@
 #include "person.h"
 
-person::person(std::string p_name):
-m_name{ p_name }
+person::person ( const std::string p_SecondName, const std::string p_FirstName ) :
+m_FirstName { p_FirstName },
+m_SecondName { p_SecondName }
 {
 }
 
-person::~person()
+person::~person ( )
 {
 }

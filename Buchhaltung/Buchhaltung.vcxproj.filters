@@ -38,6 +38,15 @@
     <ClCompile Include="management.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="account.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="savings_account.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="cash_account.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="management.h">
@@ -53,6 +62,15 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="person.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="account.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="savings_account.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="cash_account.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

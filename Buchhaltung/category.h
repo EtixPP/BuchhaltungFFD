@@ -3,9 +3,8 @@
 class category
 {
 public:
-	explicit category(std::string p_name);
-	~category();
+	explicit category ( const std::string p_name );
+	~category ( );
 private:
 	std::string m_name;
-
 };

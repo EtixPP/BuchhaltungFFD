@@ -3,10 +3,11 @@
 class person
 {
 public:
-	person(std::string p_name);
-	~person();
-	std::string GetName();
-	void SetName(std::string p_name);
+	person ( const std::string p_SecondName, const std::string p_FirstName );
+	~person ( );
+	std::string GetName ( );
+	void SetName ( std::string p_name );
 private:
-	std::string m_name;
+	std::string m_SecondName;
+	std::string m_FirstName;
 };

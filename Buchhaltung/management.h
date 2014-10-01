@@ -6,14 +6,13 @@
 class management
 {
 public:
-	explicit management(); // Management muss nicht zwingend mit Kategorien und co. gefüllt sein.
-	explicit management(const std::initializer_list<category> p_categories,const std::initializer_list<person> p_persons,const std::initializer_list<booking> p_booking); // Normalfall
-	~management();
+	explicit management ( ); // Management muss nicht zwingend mit Kategorien und co. gefüllt sein.
+	explicit management ( const std::initializer_list<category> p_CategorieList, const std::initializer_list<person> p_PersonList, const std::initializer_list<booking> p_BookingList ); // Normalfall
+	~management ( );
 private:
-	// Vektoren speichern im Management alle wichtigen Daten auf die in der Gui zugegriffen werden kann 
+	// Vektoren speichern im Management alle wichtigen Daten auf die in der Gui zugegriffen werden kann
 	// Zum Beispiel wenn man eine neue Buchung erstellen will, in dem Fall kann man mit den Vecs Klapp Menüs erstelllen etc.
-	std::vector<category> m_CatVec;
-	std::vector<person> m_PerVec;
-	std::vector<booking> m_BooVec;
-	
+	std::vector<category> m_CategoryVec;
+	std::vector<person> m_PersonVec;
+	std::vector<booking> m_BookingVec;
 };
