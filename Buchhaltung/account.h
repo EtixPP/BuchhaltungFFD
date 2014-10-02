@@ -9,6 +9,7 @@ public:
 	account ( const std::initializer_list<person> p_PersonList, const std::initializer_list<booking> p_BookingList );
 	account ( const std::initializer_list<person> p_PersonList );
 	virtual ~account ( );
+	virtual double GetBalance ( );
 protected:
 	double m_balance;
 	std::vector<person> m_RepresentativesVec;

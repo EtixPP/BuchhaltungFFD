@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
   <Class Name="booking">
-    <Position X="5.75" Y="0.5" Width="1.5" />
+    <Position X="5.5" Y="0.5" Width="2.25" />
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
@@ -25,42 +25,50 @@
     </TypeIdentifier>
   </Class>
   <Class Name="GUI_handler">
-    <Position X="10" Y="0.5" Width="1.5" />
+    <Position X="10.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
       <FileName>GUI_handler.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="management">
-    <Position X="10" Y="3" Width="2.75" />
+    <Position X="10.25" Y="3" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AEAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <HashCode>AEAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAAAhAAAAA=</HashCode>
       <FileName>management.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="person">
-    <Position X="8" Y="3" Width="1.5" />
+    <Position X="8" Y="3" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AEAAAAAAAAAAAAAAIAAAAIAAAAAAAAAAAAAAQACABAA=</HashCode>
       <FileName>person.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="account">
-    <Position X="0.5" Y="0.5" Width="4.5" />
+    <Position X="0.5" Y="0.5" Width="4.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAGAEAAAAABQAAAAAA=</HashCode>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAGAEIAAAABQAAAAAA=</HashCode>
       <FileName>account.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="payments_account">
-    <Position X="0.5" Y="3.5" Width="2" />
+    <Position X="0.5" Y="3.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAQAAAABAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <HashCode>AAAAAAAAQAAAABAAAAAAAAAAAAAAAAIAAAAAAAQAAAA=</HashCode>
       <FileName>payments_account.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="savings_account">
-    <Position X="2.75" Y="3.5" Width="2.5" />
+    <Position X="2.75" Y="3.75" Width="2.5" />
+    <InheritanceLine Type="account" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="2.875" Y="3.017" />
+        <Point X="2.875" Y="3.01" />
+        <Point X="4" Y="3.01" />
+        <Point X="4" Y="3.75" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAEAACAAAA=</HashCode>
       <FileName>savings_account.h</FileName>

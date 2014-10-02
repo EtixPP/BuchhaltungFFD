@@ -30,6 +30,7 @@ bool savings_account::CashOut ( double p_value, person p_person )
 		m_balance -= p_value;
 		return true;
 	}
+	
 	else
 		return false;
 }
