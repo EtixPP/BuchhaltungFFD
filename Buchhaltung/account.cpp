@@ -29,6 +29,9 @@ m_balance {0 }
 		}
 	}
 }
+
+
+
 account::account ( const std::initializer_list<person> p_PersonList ) :
 m_RepresentativesVec { p_PersonList }
 {
@@ -38,6 +41,29 @@ m_RepresentativesVec { p_PersonList }
 		m_balance += i.GetValue ( );
 	}
 }
+
+//Creates and ads booking to this account
+void account::CreateBooking ( booking p_booking )
+{
+	if ( CheckIdentity ( p_booking.GetPerson ( ) ) )
+	{
+		if ( p_booking.GetType ( ) == booking::TYPE_EXPENDITURE )
+		{
+			m_balance -= p_booking.GetValue ( );
+		}
+
+		else if ( p_booking.GetType ( ) == booking::TYPE_REVENUE )
+		{
+			m_balance += p_booking.GetValue ( );
+		}
+		m_BookingsVec.push_back ( p_booking );
+	}
+	else
+	{
+		std::cout << "This person has no access to this account";
+	}
+}
+
 
 bool account::CheckIdentity ( person p_person )
 {

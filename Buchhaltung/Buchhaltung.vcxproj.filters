@@ -41,10 +41,10 @@
     <ClCompile Include="account.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="savings_account.cpp">
+    <ClCompile Include="payments_account.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="payments_account.cpp">
+    <ClCompile Include="liability_account.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
@@ -67,10 +67,10 @@
     <ClInclude Include="payments_account.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="savings_account.h">
+    <ClInclude Include="account.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="account.h">
+    <ClInclude Include="liability_account.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

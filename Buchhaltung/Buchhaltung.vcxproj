@@ -71,11 +71,11 @@
     <ClCompile Include="booking.cpp" />
     <ClCompile Include="GUI_handler.cpp" />
     <ClCompile Include="category.cpp" />
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="payments_account.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="person.cpp" />
     <ClCompile Include="management.cpp" />
-    <ClCompile Include="savings_account.cpp" />
+    <ClCompile Include="liability_account.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="account.h" />
@@ -85,7 +85,7 @@
     <ClInclude Include="management.h" />
     <ClInclude Include="payments_account.h" />
     <ClInclude Include="person.h" />
-    <ClInclude Include="savings_account.h" />
+    <ClInclude Include="liability_account.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

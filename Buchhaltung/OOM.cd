@@ -20,7 +20,7 @@
   <Class Name="category">
     <Position X="8" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>EAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <HashCode>EAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAIIAAABAA=</HashCode>
       <FileName>category.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -41,37 +41,37 @@
   <Class Name="person">
     <Position X="8" Y="3" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AEAAAAAAAAAAAAAAIAAAAIAAAAAAAAAAAAAAQACABAA=</HashCode>
+      <HashCode>AEEAAAAAAAAAAAAAIAAAAIAAAAAAAAAAAABAQACABAA=</HashCode>
       <FileName>person.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="account">
     <Position X="0.5" Y="0.5" Width="4.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAGAEIAAAABQAAAAAA=</HashCode>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAGAEIAAAABQAQAAAA=</HashCode>
       <FileName>account.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="payments_account">
     <Position X="0.5" Y="3.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAQAAAABAAAAAAAAAAAAAAAAIAAAAAAAQAAAA=</HashCode>
+      <HashCode>AAAAAAAAQAAAABAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>payments_account.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="savings_account">
+  <Class Name="liability_account">
     <Position X="2.75" Y="3.75" Width="2.5" />
     <InheritanceLine Type="account" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
-        <Point X="2.875" Y="3.017" />
+        <Point X="2.875" Y="3.209" />
         <Point X="2.875" Y="3.01" />
         <Point X="4" Y="3.01" />
         <Point X="4" Y="3.75" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAEAACAAAA=</HashCode>
-      <FileName>savings_account.h</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAgAAAgAAAAAAAAASAAAA=</HashCode>
+      <FileName>liability_account.h</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
