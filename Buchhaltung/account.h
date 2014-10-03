@@ -14,6 +14,13 @@ public:
 	virtual void CreateBooking ( booking p_booking );
 
 protected:
+	// Overload << operator using C style strings
+	// No need for std::string objects here
+	friend account &operator << ( account &p_account, const booking p_booking ) 
+	{
+		p_account.CreateBooking ( p_booking );
+		return p_account;
+	}
 	double m_balance;
 	std::vector<person> m_RepresentativesVec;
 	std::vector<booking> m_BookingsVec;
