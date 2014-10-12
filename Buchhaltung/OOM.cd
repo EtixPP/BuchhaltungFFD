@@ -53,20 +53,20 @@
     </TypeIdentifier>
   </Class>
   <Class Name="payments_account">
-    <Position X="0.5" Y="3.75" Width="2" />
+    <Position X="0.5" Y="4.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQAAAABAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>payments_account.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="liability_account">
-    <Position X="2.75" Y="3.75" Width="2.5" />
+    <Position X="2.75" Y="4.5" Width="2.5" />
     <InheritanceLine Type="account" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
         <Point X="2.875" Y="3.209" />
-        <Point X="2.875" Y="3.01" />
-        <Point X="4" Y="3.01" />
-        <Point X="4" Y="3.75" />
+        <Point X="2.875" Y="3.448" />
+        <Point X="4" Y="3.448" />
+        <Point X="4" Y="4.5" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
