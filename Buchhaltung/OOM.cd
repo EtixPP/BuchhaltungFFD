@@ -48,7 +48,7 @@
   <Class Name="account">
     <Position X="0.5" Y="0.5" Width="4.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAGAEIAAAABQAQAAAA=</HashCode>
+      <HashCode>AAAAAACAAAAAAAAAAACAAAAAAAAGAEIAAAABQAQAAAA=</HashCode>
       <FileName>account.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -63,7 +63,7 @@
     <Position X="2.75" Y="4.5" Width="2.5" />
     <InheritanceLine Type="account" ManuallyRouted="true" FixedFromPoint="true">
       <Path>
-        <Point X="2.875" Y="3.209" />
+        <Point X="2.875" Y="3.401" />
         <Point X="2.875" Y="3.448" />
         <Point X="4" Y="3.448" />
         <Point X="4" Y="4.5" />

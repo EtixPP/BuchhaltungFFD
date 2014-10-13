@@ -69,6 +69,7 @@
   <ItemGroup>
     <ClCompile Include="account.cpp" />
     <ClCompile Include="booking.cpp" />
+    <ClCompile Include="date.cpp" />
     <ClCompile Include="GUI_handler.cpp" />
     <ClCompile Include="category.cpp" />
     <ClCompile Include="payments_account.cpp" />
@@ -81,6 +82,7 @@
     <ClInclude Include="account.h" />
     <ClInclude Include="booking.h" />
     <ClInclude Include="category.h" />
+    <ClInclude Include="date.h" />
     <ClInclude Include="GUI_handler.h" />
     <ClInclude Include="management.h" />
     <ClInclude Include="payments_account.h" />

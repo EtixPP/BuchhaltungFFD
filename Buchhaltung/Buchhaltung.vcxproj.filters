@@ -47,6 +47,9 @@
     <ClCompile Include="liability_account.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="date.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="management.h">
@@ -71,6 +74,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="liability_account.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="date.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

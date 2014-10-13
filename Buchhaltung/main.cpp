@@ -9,6 +9,9 @@ int main ( )
 	pay << booking;
 	pay << booking;
 	pay << booking;
+	pay << booking;
+	pay << booking;
+	pay << booking;
 	sav.GetBalance ( );
 	pay.GetBalance ( );
 	system ( "PAUSE" );

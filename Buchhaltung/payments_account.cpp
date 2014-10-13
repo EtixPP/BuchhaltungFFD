@@ -8,7 +8,7 @@ payments_account::~payments_account ( )
 {
 }
 
-double payments_account::GetBalance ( )
+const double& payments_account::GetBalance ( ) const
 {
 	std::cout << "\n DEBUG - BALANCE ->" << m_balance << "\n";
 	return m_balance;
