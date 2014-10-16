@@ -50,6 +50,9 @@
     <ClCompile Include="date.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="months.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="management.h">
@@ -77,6 +80,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="date.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="months.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

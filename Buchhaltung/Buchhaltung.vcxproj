@@ -72,6 +72,7 @@
     <ClCompile Include="date.cpp" />
     <ClCompile Include="GUI_handler.cpp" />
     <ClCompile Include="category.cpp" />
+    <ClCompile Include="months.cpp" />
     <ClCompile Include="payments_account.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="person.cpp" />
@@ -85,6 +86,7 @@
     <ClInclude Include="date.h" />
     <ClInclude Include="GUI_handler.h" />
     <ClInclude Include="management.h" />
+    <ClInclude Include="months.h" />
     <ClInclude Include="payments_account.h" />
     <ClInclude Include="person.h" />
     <ClInclude Include="liability_account.h" />
