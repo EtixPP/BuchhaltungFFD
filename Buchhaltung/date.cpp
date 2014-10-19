@@ -46,6 +46,51 @@ date::~date ( )
 {
 }
 
+bool date::IsOlder ( date p_date ) const
+{
+	if ( m_year < p_date.GetYear ( ) )
+		return false;
+	else if ( m_month < p_date.GetMonth ( ) )
+		return false;
+	else if ( m_day < p_date.GetDay ( ) )
+		return false;
+	else if ( m_hour < p_date.GetHour ( ) )
+		return false;
+	else if ( m_minute < p_date.GetMinute ( ) )
+		return false;
+	else if ( m_second < p_date.GetSecond ( ) )
+		return false;
+	else if ( m_second == p_date.GetSecond ( ) && m_minute == p_date.GetMinute ( ) && m_hour == p_date.GetHour ( ) && m_day == p_date.GetDay ( ) && m_month == p_date.GetMonth ( ) && m_year == p_date.GetYear ( ) )
+		return false;
+	else
+		return true;
+}
+bool date::IsYounger ( date p_date ) const
+{
+	if ( m_year > p_date.GetYear ( ) )
+		return false;
+	else if ( m_month > p_date.GetMonth ( ) )
+		return false;
+	else if ( m_day > p_date.GetDay ( ) )
+		return false;
+	else if ( m_hour > p_date.GetHour ( ) )
+		return false;
+	else if ( m_minute > p_date.GetMinute ( ) )
+		return false;
+	else if ( m_second > p_date.GetSecond ( ) )
+		return false;
+	else if ( m_second == p_date.GetSecond ( ) && m_minute == p_date.GetMinute ( ) && m_hour == p_date.GetHour ( ) && m_day == p_date.GetDay ( ) && m_month == p_date.GetMonth ( ) && m_year == p_date.GetYear ( ) )
+		return false;
+	else
+		return true;
+}
+bool date::IsEqual ( date p_date ) const
+{
+	if ( m_second == p_date.GetSecond ( ) && m_minute == p_date.GetMinute ( ) && m_hour == p_date.GetHour ( ) && m_day == p_date.GetDay ( ) && m_month == p_date.GetMonth ( ) && m_year == p_date.GetYear ( ) )
+		return true;
+	else
+		return false;
+}
 
 std::size_t date::CalcTimestamp ( )
 {
@@ -61,4 +106,67 @@ std::size_t date::CalcTimestamp ( )
 short date::HowManyLeapYears (short p_year )
 {
 	return ( ( p_year / 4 ) - ( p_year / 100 ) + ( p_year / 400 ) );
+}
+
+
+
+bool date::operator>(date& p_date ) const
+{
+	if ( this->IsOlder ( p_date ) )
+		return true;
+	else
+		return false;
+}
+
+bool date::operator<( date& p_date ) const
+{
+	if ( this->IsYounger ( p_date ) )
+		return true;
+	else
+		return false;
+}
+
+bool date::operator==( date& p_date ) const
+{
+	if ( this->IsEqual ( p_date ) )
+		return true;
+	else
+		return false;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+short date::GetYear ( )
+{
+	return m_year;
+}
+short date::GetMonth ( )
+{
+	return m_month;
+}
+short date::GetDay ( )
+{
+	return m_day;
+}
+short date::GetHour ( )
+{
+	return m_hour;
+}
+short date::GetMinute ( )
+{
+	return m_minute;
+}
+short date::GetSecond ( )
+{
+	return m_second;
 }

@@ -10,13 +10,15 @@ public:
 	explicit date ( short p_minute, short p_hour, short p_day, short p_month, short p_year );
 	explicit date ( short p_second, short p_minute, short p_hour, short p_day, short p_month, short p_year );
 	~date ( );
-	bool operator < ( date& p_date ) const
-	{
-		if ( this->m_timestamp < p_date.m_timestamp )
-			return true;
-		else
-			return false;
-	}
+	bool operator > ( date& p_date ) const;
+	bool operator < ( date& p_date ) const;
+	bool operator == ( date& p_date ) const;
+	short GetYear ( );
+	short GetMonth ( );
+	short GetDay ( );
+	short GetHour ( );
+	short GetMinute ( );
+	short GetSecond ( );
 private:
 	std::size_t CalcTimestamp ( );
 	short HowManyLeapYears ( short p_year);
@@ -26,6 +28,9 @@ private:
 	short m_day;
 	short m_month;
 	short m_year;
+	bool IsOlder ( date p_date ) const;
+	bool IsYounger ( date p_date ) const;
+	bool IsEqual ( date p_date ) const;
 	std::size_t m_timestamp;
 };
 

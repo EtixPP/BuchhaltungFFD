@@ -2,14 +2,14 @@
 #include "date.h"
 int main ( )
 {
-	date foo{  21, 10, 1500 };
+	date foo{ 0,0,0, 20, 10, 1700 };
 	std::cout << std::endl;
-	date bar {  20, 10, 1700 };
+	date bar { 0, 0, 0, 20, 10, 1700 };
 	std::cout << std::endl;
-	if (foo < bar )
+	if (foo > bar )
 
 
-		std::cout << "is smaller";
+		std::cout << "is older";
 	
 	management ( );
 	booking booking { "test", "test", category ( "test", "c:bla" ), person ( "person", "person" ), booking::Type::TYPE_EXPENDITURE, 625 };
